@@ -1,12 +1,10 @@
 package io.zipcoder;
 
 import org.junit.Assert;
-import org.junit.Before;
 import org.junit.Test;
 
-public class ApplicationTest {
+public class HouseTest {
 
-    @Before
     Dog dog = new Dog("Davis", 1);
     Cat cat = new Cat("Davis", 2);
     Toucan toucan = new Toucan("Davis", 3);
